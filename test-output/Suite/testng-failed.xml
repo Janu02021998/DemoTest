@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="Edge"/>
+  <test name="Test2(failed)" parallel="none">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="SeleniumProject.Payment">
+        <methods>
+          <include name="EnterPopupWindow"/>
+          <include name="VerifyPayment"/>
+          <include name="verifyMenu"/>
+          <include name="PaymentMethod"/>
+          <include name="EnterInputFields2"/>
+          <include name="PaymentInnerMethodDetails"/>
+          <include name="ClickPayment"/>
+          <include name="launchURL"/>
+          <include name="PaymentInnerMethod"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="VerifyPopupWindow"/>
+          <include name="EnterInputFields"/>
+          <include name="launch"/>
+          <include name="launch"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- SeleniumProject.Payment -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

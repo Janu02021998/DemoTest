@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="33" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="263925" started-at="2022-05-16T06:08:30Z" finished-at="2022-05-16T06:12:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="90603" started-at="2022-05-16T06:08:30Z" finished-at="2022-05-16T06:10:01Z">
+      <class name="SeleniumProject.Payment">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="launch" is-config="true" duration-ms="3778" started-at="2022-05-16T11:38:30Z" finished-at="2022-05-16T11:38:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="launchURL" duration-ms="9156" started-at="2022-05-16T11:38:34Z" finished-at="2022-05-16T11:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="verifyMenu()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="verifyMenu" duration-ms="6737" started-at="2022-05-16T11:38:43Z" finished-at="2022-05-16T11:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenu -->
+        <test-method status="PASS" signature="EnterInputFields()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="EnterInputFields" duration-ms="2297" started-at="2022-05-16T11:38:50Z" finished-at="2022-05-16T11:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInputFields -->
+        <test-method status="PASS" signature="EnterInputFields2()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="EnterInputFields2" duration-ms="10424" started-at="2022-05-16T11:38:52Z" finished-at="2022-05-16T11:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInputFields2 -->
+        <test-method status="PASS" signature="PaymentMethod()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="PaymentMethod" duration-ms="7367" started-at="2022-05-16T11:39:03Z" finished-at="2022-05-16T11:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentMethod -->
+        <test-method status="PASS" signature="PaymentInnerMethod()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="PaymentInnerMethod" duration-ms="335" started-at="2022-05-16T11:39:10Z" finished-at="2022-05-16T11:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInnerMethod -->
+        <test-method status="PASS" signature="PaymentInnerMethodDetails()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="PaymentInnerMethodDetails" duration-ms="965" started-at="2022-05-16T11:39:10Z" finished-at="2022-05-16T11:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInnerMethodDetails -->
+        <test-method status="PASS" signature="ClickPayment()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="ClickPayment" duration-ms="5293" started-at="2022-05-16T11:39:11Z" finished-at="2022-05-16T11:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickPayment -->
+        <test-method status="PASS" signature="VerifyPopupWindow()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="VerifyPopupWindow" duration-ms="6160" started-at="2022-05-16T11:39:17Z" finished-at="2022-05-16T11:39:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPopupWindow -->
+        <test-method status="PASS" signature="EnterPopupWindow()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="EnterPopupWindow" duration-ms="33448" started-at="2022-05-16T11:39:23Z" finished-at="2022-05-16T11:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPopupWindow -->
+        <test-method status="PASS" signature="VerifyPayment()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="VerifyPayment" duration-ms="4275" started-at="2022-05-16T11:39:56Z" finished-at="2022-05-16T11:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPayment -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SeleniumProject.Payment@2aece37d]" name="closeBrowser" is-config="true" duration-ms="313" started-at="2022-05-16T11:40:00Z" finished-at="2022-05-16T11:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumProject.Payment -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="83588" started-at="2022-05-16T06:10:01Z" finished-at="2022-05-16T06:11:24Z">
+      <class name="SeleniumProject.Payment">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="launch" is-config="true" duration-ms="7028" started-at="2022-05-16T11:40:01Z" finished-at="2022-05-16T11:40:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="launchURL" duration-ms="5528" started-at="2022-05-16T11:40:08Z" finished-at="2022-05-16T11:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="verifyMenu()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="verifyMenu" duration-ms="249" started-at="2022-05-16T11:40:13Z" finished-at="2022-05-16T11:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenu -->
+        <test-method status="PASS" signature="EnterInputFields()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="EnterInputFields" duration-ms="6445" started-at="2022-05-16T11:40:14Z" finished-at="2022-05-16T11:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInputFields -->
+        <test-method status="PASS" signature="EnterInputFields2()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="EnterInputFields2" duration-ms="13642" started-at="2022-05-16T11:40:20Z" finished-at="2022-05-16T11:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInputFields2 -->
+        <test-method status="PASS" signature="PaymentMethod()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="PaymentMethod" duration-ms="1275" started-at="2022-05-16T11:40:34Z" finished-at="2022-05-16T11:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentMethod -->
+        <test-method status="PASS" signature="PaymentInnerMethod()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="PaymentInnerMethod" duration-ms="350" started-at="2022-05-16T11:40:35Z" finished-at="2022-05-16T11:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInnerMethod -->
+        <test-method status="PASS" signature="PaymentInnerMethodDetails()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="PaymentInnerMethodDetails" duration-ms="466" started-at="2022-05-16T11:40:35Z" finished-at="2022-05-16T11:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInnerMethodDetails -->
+        <test-method status="PASS" signature="ClickPayment()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="ClickPayment" duration-ms="5373" started-at="2022-05-16T11:40:36Z" finished-at="2022-05-16T11:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickPayment -->
+        <test-method status="PASS" signature="VerifyPopupWindow()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="VerifyPopupWindow" duration-ms="5121" started-at="2022-05-16T11:40:41Z" finished-at="2022-05-16T11:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPopupWindow -->
+        <test-method status="PASS" signature="EnterPopupWindow()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="EnterPopupWindow" duration-ms="33696" started-at="2022-05-16T11:40:46Z" finished-at="2022-05-16T11:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPopupWindow -->
+        <test-method status="PASS" signature="VerifyPayment()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="VerifyPayment" duration-ms="2171" started-at="2022-05-16T11:41:20Z" finished-at="2022-05-16T11:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPayment -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SeleniumProject.Payment@5c1a8622]" name="closeBrowser" is-config="true" duration-ms="2228" started-at="2022-05-16T11:41:22Z" finished-at="2022-05-16T11:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumProject.Payment -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="89702" started-at="2022-05-16T06:11:24Z" finished-at="2022-05-16T06:12:54Z">
+      <class name="SeleniumProject.Payment">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:SeleniumProject.Payment@37e547da]" name="launch" is-config="true" duration-ms="6872" started-at="2022-05-16T11:41:24Z" finished-at="2022-05-16T11:41:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="launchURL" duration-ms="7480" started-at="2022-05-16T11:41:31Z" finished-at="2022-05-16T11:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="verifyMenu()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="verifyMenu" duration-ms="441" started-at="2022-05-16T11:41:39Z" finished-at="2022-05-16T11:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenu -->
+        <test-method status="PASS" signature="EnterInputFields()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="EnterInputFields" duration-ms="7808" started-at="2022-05-16T11:41:39Z" finished-at="2022-05-16T11:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInputFields -->
+        <test-method status="PASS" signature="EnterInputFields2()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="EnterInputFields2" duration-ms="11557" started-at="2022-05-16T11:41:47Z" finished-at="2022-05-16T11:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInputFields2 -->
+        <test-method status="PASS" signature="PaymentMethod()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="PaymentMethod" duration-ms="618" started-at="2022-05-16T11:41:59Z" finished-at="2022-05-16T11:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentMethod -->
+        <test-method status="PASS" signature="PaymentInnerMethod()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="PaymentInnerMethod" duration-ms="515" started-at="2022-05-16T11:41:59Z" finished-at="2022-05-16T11:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInnerMethod -->
+        <test-method status="PASS" signature="PaymentInnerMethodDetails()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="PaymentInnerMethodDetails" duration-ms="3636" started-at="2022-05-16T11:42:00Z" finished-at="2022-05-16T11:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInnerMethodDetails -->
+        <test-method status="PASS" signature="ClickPayment()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="ClickPayment" duration-ms="5253" started-at="2022-05-16T11:42:03Z" finished-at="2022-05-16T11:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickPayment -->
+        <test-method status="PASS" signature="VerifyPopupWindow()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="VerifyPopupWindow" duration-ms="5577" started-at="2022-05-16T11:42:09Z" finished-at="2022-05-16T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPopupWindow -->
+        <test-method status="PASS" signature="EnterPopupWindow()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="EnterPopupWindow" duration-ms="35264" started-at="2022-05-16T11:42:14Z" finished-at="2022-05-16T11:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPopupWindow -->
+        <test-method status="PASS" signature="VerifyPayment()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="VerifyPayment" duration-ms="4161" started-at="2022-05-16T11:42:49Z" finished-at="2022-05-16T11:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPayment -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SeleniumProject.Payment@37e547da]" name="closeBrowser" is-config="true" duration-ms="461" started-at="2022-05-16T11:42:54Z" finished-at="2022-05-16T11:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumProject.Payment -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

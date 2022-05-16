@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi">0</td><td class="numi">90.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test1</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi">0</td><td class="numi">83.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test2</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi">0</td><td class="numi">89.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">33</td><td class="numi">33</td><td class="numi">0</td><td class="numi">0</td><td class="numi">263.9 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="11">SeleniumProject.Payment</td><td><a href="#m1"><b>launchURL</b>  </a></td><td class="numi">1</td><td>1652681314430</td><td class="numi">9156</td></tr><tr class="passedodd"><td><a href="#m2"><b>verifyMenu</b>  </a></td><td class="numi">1</td><td>1652681323589</td><td class="numi">6737</td></tr><tr class="passedodd"><td><a href="#m3"><b>EnterInputFields</b>  </a></td><td class="numi">1</td><td>1652681330329</td><td class="numi">2297</td></tr><tr class="passedodd"><td><a href="#m4"><b>EnterInputFields2</b>  </a></td><td class="numi">1</td><td>1652681332628</td><td class="numi">10424</td></tr><tr class="passedodd"><td><a href="#m5"><b>PaymentMethod</b>  </a></td><td class="numi">1</td><td>1652681343054</td><td class="numi">7367</td></tr><tr class="passedodd"><td><a href="#m6"><b>PaymentInnerMethod</b>  </a></td><td class="numi">1</td><td>1652681350423</td><td class="numi">335</td></tr><tr class="passedodd"><td><a href="#m7"><b>PaymentInnerMethodDetails</b>  </a></td><td class="numi">1</td><td>1652681350760</td><td class="numi">965</td></tr><tr class="passedodd"><td><a href="#m8"><b>ClickPayment</b>  </a></td><td class="numi">1</td><td>1652681351731</td><td class="numi">5293</td></tr><tr class="passedodd"><td><a href="#m9"><b>VerifyPopupWindow</b>  </a></td><td class="numi">1</td><td>1652681357025</td><td class="numi">6160</td></tr><tr class="passedodd"><td><a href="#m10"><b>EnterPopupWindow</b>  </a></td><td class="numi">1</td><td>1652681363189</td><td class="numi">33448</td></tr><tr class="passedodd"><td><a href="#m11"><b>VerifyPayment</b>  </a></td><td class="numi">1</td><td>1652681396639</td><td class="numi">4275</td></tr>
+<tr><th colspan="4">Test1 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="11">SeleniumProject.Payment</td><td><a href="#m12"><b>launchURL</b>  </a></td><td class="numi">1</td><td>1652681408287</td><td class="numi">5528</td></tr><tr class="passedodd"><td><a href="#m13"><b>verifyMenu</b>  </a></td><td class="numi">1</td><td>1652681413816</td><td class="numi">249</td></tr><tr class="passedodd"><td><a href="#m14"><b>EnterInputFields</b>  </a></td><td class="numi">1</td><td>1652681414067</td><td class="numi">6445</td></tr><tr class="passedodd"><td><a href="#m15"><b>EnterInputFields2</b>  </a></td><td class="numi">1</td><td>1652681420514</td><td class="numi">13642</td></tr><tr class="passedodd"><td><a href="#m16"><b>PaymentMethod</b>  </a></td><td class="numi">1</td><td>1652681434158</td><td class="numi">1275</td></tr><tr class="passedodd"><td><a href="#m17"><b>PaymentInnerMethod</b>  </a></td><td class="numi">1</td><td>1652681435435</td><td class="numi">350</td></tr><tr class="passedodd"><td><a href="#m18"><b>PaymentInnerMethodDetails</b>  </a></td><td class="numi">1</td><td>1652681435785</td><td class="numi">466</td></tr><tr class="passedodd"><td><a href="#m19"><b>ClickPayment</b>  </a></td><td class="numi">1</td><td>1652681436252</td><td class="numi">5373</td></tr><tr class="passedodd"><td><a href="#m20"><b>VerifyPopupWindow</b>  </a></td><td class="numi">1</td><td>1652681441626</td><td class="numi">5121</td></tr><tr class="passedodd"><td><a href="#m21"><b>EnterPopupWindow</b>  </a></td><td class="numi">1</td><td>1652681446748</td><td class="numi">33696</td></tr><tr class="passedodd"><td><a href="#m22"><b>VerifyPayment</b>  </a></td><td class="numi">1</td><td>1652681480445</td><td class="numi">2171</td></tr>
+<tr><th colspan="4">Test2 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="11">SeleniumProject.Payment</td><td><a href="#m23"><b>launchURL</b>  </a></td><td class="numi">1</td><td>1652681491727</td><td class="numi">7480</td></tr><tr class="passedodd"><td><a href="#m24"><b>verifyMenu</b>  </a></td><td class="numi">1</td><td>1652681499208</td><td class="numi">441</td></tr><tr class="passedodd"><td><a href="#m25"><b>EnterInputFields</b>  </a></td><td class="numi">1</td><td>1652681499650</td><td class="numi">7808</td></tr><tr class="passedodd"><td><a href="#m26"><b>EnterInputFields2</b>  </a></td><td class="numi">1</td><td>1652681507459</td><td class="numi">11557</td></tr><tr class="passedodd"><td><a href="#m27"><b>PaymentMethod</b>  </a></td><td class="numi">1</td><td>1652681519018</td><td class="numi">618</td></tr><tr class="passedodd"><td><a href="#m28"><b>PaymentInnerMethod</b>  </a></td><td class="numi">1</td><td>1652681519638</td><td class="numi">515</td></tr><tr class="passedodd"><td><a href="#m29"><b>PaymentInnerMethodDetails</b>  </a></td><td class="numi">1</td><td>1652681520154</td><td class="numi">3636</td></tr><tr class="passedodd"><td><a href="#m30"><b>ClickPayment</b>  </a></td><td class="numi">1</td><td>1652681523791</td><td class="numi">5253</td></tr><tr class="passedodd"><td><a href="#m31"><b>VerifyPopupWindow</b>  </a></td><td class="numi">1</td><td>1652681529045</td><td class="numi">5577</td></tr><tr class="passedodd"><td><a href="#m32"><b>EnterPopupWindow</b>  </a></td><td class="numi">1</td><td>1652681534667</td><td class="numi">35264</td></tr><tr class="passedodd"><td><a href="#m33"><b>VerifyPayment</b>  </a></td><td class="numi">1</td><td>1652681569932</td><td class="numi">4161</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">SeleniumProject.Payment:EnterInputFields</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">SeleniumProject.Payment:VerifyPopupWindow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">SeleniumProject.Payment:EnterPopupWindow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">SeleniumProject.Payment:PaymentMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">SeleniumProject.Payment:ClickPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">SeleniumProject.Payment:PaymentInnerMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">SeleniumProject.Payment:VerifyPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">SeleniumProject.Payment:EnterInputFields2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">SeleniumProject.Payment:PaymentInnerMethodDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">SeleniumProject.Payment:verifyMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">SeleniumProject.Payment:launchURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test1</h1>
+<h2 id="m12">SeleniumProject.Payment:PaymentMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">SeleniumProject.Payment:ClickPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">SeleniumProject.Payment:EnterInputFields</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">SeleniumProject.Payment:VerifyPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">SeleniumProject.Payment:launchURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">SeleniumProject.Payment:EnterInputFields2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">SeleniumProject.Payment:PaymentInnerMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">SeleniumProject.Payment:EnterPopupWindow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">SeleniumProject.Payment:PaymentInnerMethodDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">SeleniumProject.Payment:VerifyPopupWindow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">SeleniumProject.Payment:verifyMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test2</h1>
+<h2 id="m23">SeleniumProject.Payment:PaymentInnerMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">SeleniumProject.Payment:EnterInputFields2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">SeleniumProject.Payment:EnterInputFields</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">SeleniumProject.Payment:VerifyPopupWindow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">SeleniumProject.Payment:verifyMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">SeleniumProject.Payment:PaymentInnerMethodDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">SeleniumProject.Payment:ClickPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">SeleniumProject.Payment:VerifyPayment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">SeleniumProject.Payment:EnterPopupWindow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">SeleniumProject.Payment:launchURL</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">SeleniumProject.Payment:PaymentMethod</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
